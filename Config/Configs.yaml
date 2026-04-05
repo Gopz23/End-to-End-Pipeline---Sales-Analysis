@@ -1,0 +1,5 @@
+project_id: "gopz-data-engineering-001"
+bucket_name: "gopz-sales-data-bucket"
+region: "asia-south1"
+cluster_name: "gopz-dataproc-cluster"
+dataset: "gopz_sales_dataset"
