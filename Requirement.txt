@@ -1,0 +1,4 @@
+google-cloud-storage
+pyspark
+apache-airflow
+pyyaml
