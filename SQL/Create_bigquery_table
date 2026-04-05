@@ -1,0 +1,6 @@
+CREATE OR REPLACE TABLE sales_dataset.sales_summary AS
+SELECT
+  customer_id,
+  SUM(amount) AS total_spent
+FROM `your_project.sales_dataset.sales_data`
+GROUP BY customer_id;
